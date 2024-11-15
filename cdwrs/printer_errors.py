@@ -9,4 +9,5 @@ def printer_errors(s: str) -> str:
     return f"{count_x}/{len(s)}"
 
 if __name__ == "__main__":
-    pass
+    value = input("Enter a valid string: ")
+    print(printer_errors(value))
